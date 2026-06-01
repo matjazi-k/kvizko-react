@@ -25,8 +25,8 @@ function NavItem({
                     <span
                         className={getStateClassName(
                             'nav-item__icon snap-transition',
-                            `${activeColor} ${activeHoverColor} material-symbols-filled`,
-                            'hover-surface-container-highest material-symbols-outlined',
+                            `${activeColor} ${activeHoverColor} material-symbols-filled active`,
+                            'hover-surface-container-highest material-symbols-outlined inactive',
                             isActive,
                         )}
                         aria-hidden="true"

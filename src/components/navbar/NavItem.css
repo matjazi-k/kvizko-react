@@ -51,6 +51,22 @@
   border: 0;
 }
 
+.nav-item__icon.active {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 650,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.nav-item__icon.inactive:hover {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 650,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
 .nav-item__label {
   display: block;
   text-align: center;

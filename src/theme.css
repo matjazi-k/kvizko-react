@@ -678,6 +678,13 @@
 .fw-700 { font-weight: 700 !important; }
 .fw-800 { font-weight: 800 !important; }
 
+.hover-fw-300:hover { font-weight: 300 !important; }
+.hover-fw-400:hover { font-weight: 400 !important; }
+.hover-fw-500:hover { font-weight: 500 !important; }
+.hover-fw-600:hover { font-weight: 600 !important; }
+.hover-fw-700:hover { font-weight: 700 !important; }
+.hover-fw-800:hover { font-weight: 800 !important; }
+
 .fs-12 { font-size: 12px; }
 .fs-14 { font-size: 14px; }
 .fs-16 { font-size: 16px; }
