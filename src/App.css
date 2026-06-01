@@ -1,0 +1,6 @@
+.app-shell {
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+  min-height: 100vh;
+}

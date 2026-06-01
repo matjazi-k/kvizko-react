@@ -1,0 +1,114 @@
+/* Makes display none for empty elements */
+.empty-none:empty {
+  display: none;
+}
+
+/* Material Symbols */
+.material-symbols-outlined,
+.material-symbols-filled {
+  font-style: normal;
+  line-height: 1;
+  letter-spacing: normal;
+  text-transform: none;
+  white-space: nowrap;
+  direction: ltr;
+  -webkit-font-smoothing: antialiased;
+  font-feature-settings: 'liga';
+  -webkit-font-feature-settings: 'liga';
+
+  font-family: 'Material Symbols Outlined';
+  font-weight: normal;
+}
+
+.material-symbols-outlined {
+  font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+.material-symbols-filled {
+  font-variation-settings:
+    'FILL' 1,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24;
+}
+
+/* flex */
+.flex-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-1 {
+  flex: 1;
+}
+
+.flex-2 {
+  flex: 2;
+}
+
+.flex-3 {
+  flex: 3;
+}
+
+.justify-start {
+  justify-content: flex-start;
+}
+
+.justify-end {
+  justify-content: flex-end;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.align-start {
+  align-items: flex-start;
+}
+
+.align-end {
+  align-items: flex-end;
+}
+
+.align-center {
+  align-items: center;
+}
+
+/* Cursors */
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.cursor-default {
+  cursor: default;
+}
+
+/* Border */
+.border-solid {
+  border-width: 1px;
+  border-style: solid;
+}
+
+.border-dashed {
+  border-width: 1px;
+  border-style: dashed;
+}
+
+.border-dotted {
+  border-width: 1px;
+  border-style: dotted;
+}
+
+/* Transition */
+.snap-transition {
+  transition: all 0.3s cubic-bezier(0.2, 0, 0, 1);
+}
