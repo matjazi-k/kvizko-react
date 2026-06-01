@@ -2,8 +2,8 @@ export type NavItemProps = {
     to: string
     label: string
     iconName: string
-    activeColor?: string
-    activeHoverColor?: string
-    activeTextColor?: string
-    activeHoverTextColor?: string
+    activeColorClassName?: string
+    activeHoverColorClassName?: string
+    activeTextColorClassName?: string
+    activeHoverTextColorClassName?: string
 }

@@ -5,6 +5,7 @@ const navItems = [
   { to: '/', label: 'Kvizko', iconName: 'quiz' },
   { to: '/structure', label: 'Structura', iconName: 'description' },
   { to: '/create', label: 'Ustvari', iconName: 'add_box' },
+  /* { to: '/settings', label: 'Nastavitve', iconName: 'settings' } */
 ]
 
 function Navbar() {

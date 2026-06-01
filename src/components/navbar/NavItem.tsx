@@ -9,10 +9,10 @@ function NavItem({
     to, 
     label, 
     iconName,
-    activeColor = 'primary-container',
-    activeHoverColor = 'hover-secondary-container',
-    activeTextColor = 'on-primary-container',
-    activeHoverTextColor = 'hover-on-secondary-container',
+    activeColorClassName = 'primary-container',
+    activeHoverColorClassName = 'hover-secondary-container',
+    activeTextColorClassName = 'on-primary-container',
+    activeHoverTextColorClassName = 'hover-on-secondary-container',
 }: NavItemProps) {
     return (
         <NavLink
@@ -25,7 +25,7 @@ function NavItem({
                     <span
                         className={getStateClassName(
                             'nav-item__icon snap-transition',
-                            `${activeColor} ${activeHoverColor} material-symbols-filled active`,
+                            `${activeColorClassName} ${activeHoverColorClassName} material-symbols-filled active`,
                             'hover-surface-container-highest material-symbols-outlined inactive',
                             isActive,
                         )}
@@ -36,7 +36,7 @@ function NavItem({
                     <span
                         className={getStateClassName(
                             'nav-item__label snap-transition fw-500', 
-                            `${activeTextColor} ${activeHoverTextColor}`, 
+                            `${activeTextColorClassName} ${activeHoverTextColorClassName}`, 
                             'text-on-surface-container', 
                             isActive
                         )}
