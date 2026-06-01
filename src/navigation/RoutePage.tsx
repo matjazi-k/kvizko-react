@@ -7,10 +7,12 @@ type RoutePageProps = {
 
 function RoutePage({ title, description }: RoutePageProps) {
   return (
-    <section className="route-page flex-column g-md">
-      <h1 className="route-page__title">{title}</h1>
-      <p className="route-page__description">{description}</p>
-    </section>
+    <>
+      <header className="route-page__page-header">
+        <h1>{title}</h1>
+        <p>{description}</p>
+      </header>
+    </>
   )
 }
 
